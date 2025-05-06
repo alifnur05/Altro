@@ -185,7 +185,7 @@
                 <div class="col-lg-12">
                     <div class="card">
                         <div class="card-body">
-                    
+
                             <!-- Table with stripped rows -->
                             <table class="table table-striped mt-2">
                                 <thead>
@@ -198,7 +198,7 @@
                                 <tbody>
                                     <?php
                                     include "koneksi.php";
-                                    $no=1;
+                                    $no = 1;
 
                                     $query = isset($_POST['query']) ? mysqli_real_escape_string($koneksi, $_POST['query']) : '';
                                     $sql_query = "SELECT id_kategori, nm_kategori FROM tb_kategori";
@@ -209,39 +209,32 @@
                                     if (mysqli_num_rows($sql) > 0) {
                                         while ($hasil = mysqli_fetch_array($sql)) {
                                     ?>
+                                            <tr>
+                                                <td><?php echo $no++; ?></td>
+                                                <td><?php echo $hasil['nm_kategori']; ?></td>
+                                                <td>
+                                                    <a href="e_kategori.php?id=<?php echo $hasil['id_kategori']; ?>"
+                                                        class="btn btn-warning">
+                                                        <i class="bi bi-pencil-square"></i>
+                                                    </a>
+                                                    <a href="h_kategori.php?id=<?php echo $hasil['id_kategori']; ?>" class="btn btn-danger" onclick="return confirm('Apakah Anda Yakin Ingin Menghapus Data?')">
+                                                        <i class="bi bi-trash"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        <?php
+                                        }
+                                    } else {
+                                        ?>
                                         <tr>
-                                            <td><?php echo $no++; ?></td>
-                                            <td><?php echo $hasil
-                                            ['nm_kategori']; ?></td>
-                                            <td>
-                                                <a href="e_kategori.php?id"<?php echo $hasil
-                                                ['id_kategori']; ?>"
-                                                class="btn btn-warning">
-                                                    <i class="bi
-                                                    bi-pencil-square"></i>
-                                                </a>
-                                                <a href="h_kategori.php?id=<?php echo $hasil
-                                                ['id_kategori']; ?>
-                                                class="btn btn-danger"
-                                                onclick="return confirm
-                                                ('Apakah anda ingin menghapus data?')">
-                                                    <i class="bi bi-trash"></i>
-                                                </a>
-                                            </td>
+                                            <td colspan="3"
+                                                class="text-center">belum ada data</td>
                                         </tr>
                                     <?php
                                     }
-                                } else {
                                     ?>
-                                    <tr>
-                                        <td colspan="3"
-                                        class="text-center">belum ada data</td>
-                                    </tr>
-                                <?php
-                                }
-                                ?>
-                            </tbody
-                        </table
+                                </tbody>
+                            </table>
                             <!-- End Table with stripped rows -->
 
                         </div>
@@ -253,18 +246,18 @@
     </main><!-- End #main -->
 
     <!-- ======= Footer ======= -->
-    <footer id="footer" class="footer">
-        <div class="copyright">
-            &copy; Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
-    </footer><!-- End Footer -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Altro</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
+      Designed by <a href="https://instagram.com/alif.nfdl/"target="blank">Alif</a>
+    </div>
+  </footer><!-- End Footer -->
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
