@@ -87,24 +87,6 @@ if (isset($_POST['simpan'])) {
             <li>
               <hr class="dropdown-divider">
             </li>
-
-  
-            <li>
-              <a class="dropdown-item d-flex align-items-center" href="users-profile.php">
-                <i class="bi bi-gear"></i>
-                <span>Account Settings</span>
-              </a>
-            </li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li>
-              <a class="dropdown-item d-flex align-items-center" href="pages-faq.php">
-                <i class="bi bi-question-circle"></i>
-                <span>Need Help?</span>
-              </a>
-            </li>
             <li>
               <hr class="dropdown-divider">
             </li>
@@ -124,8 +106,8 @@ if (isset($_POST['simpan'])) {
 
   </header><!-- End Header -->
 
-   <!-- ======= Sidebar ======= -->
-   <aside id="sidebar" class="sidebar">
+    <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
 
 <ul class="sidebar-nav" id="sidebar-nav">
 
@@ -180,7 +162,6 @@ if (isset($_POST['simpan'])) {
 </ul>
 
 </aside><!-- End Sidebar-->
-
   <main id="main" class="main">
 
     <div class="pagetitle">
