@@ -22,7 +22,7 @@ if (isset($_POST['simpan'])) {
     $tmp_file = $_FILES['gambar']['tmp_name'];
     $extension = strtolower(pathinfo($imgfile, PATHINFO_EXTENSION));
 
-    $dir = "produk_img"; //Direktori penyimpanan gambar
+    $dir = "produk_img/"; //Direktori penyimpanan gambar
     $allowed_extension = array("jpg", "jpeg", "png", "webp");
 
     if (!in_array($extension, $allowed_extension)) {
@@ -148,14 +148,14 @@ if (isset($_POST['simpan'])) {
     </li><!-- End Kategori Page Nav -->
 
     <li class="nav-item">
-        <a class="nav-link collapsed" href="produk.php">
+        <a class="nav-link" href="produk.php">
             <i class="bi bi-question-circle"></i>
             <span>Produk</span>
         </a>
     </li><!-- End Produk Page Nav -->
 
     <li class="nav-item">
-        <a class="nav-link" href="keranjang.php">
+        <a class="nav-link collapsed" href="keranjang.php">
             <i class="bi bi-envelope"></i>
             <span>Keranjang</span>
         </a>
@@ -199,13 +199,13 @@ if (isset($_POST['simpan'])) {
         </div><!-- End Page Title -->
         <section class="section">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-6">
 
                     <div class="card">
                         <div class="card-body">
 
                             <!-- Vertical Form -->
-                            <form class="row g-3" method="post" enctype="multipart/form-data">
+                            <form class="row g-3 mt-2" method="post" enctype="multipart/form-data">
                                 <div class="col-12">
                                     <label for="nm_produk" class="form-label">Nama Produk</label>
                                     <input type="text" class="form-control" id="nm_produk" name="nm_produk"

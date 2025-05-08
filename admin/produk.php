@@ -111,14 +111,14 @@
             </li><!-- End Kategori Page Nav -->
 
             <li class="nav-item">
-                <a class="nav-link collapsed" href="produk.php">
+                <a class="nav-link" href="produk.php">
                     <i class="bi bi-question-circle"></i>
                     <span>Produk</span>
                 </a>
             </li><!-- End Produk Page Nav -->
 
             <li class="nav-item">
-                <a class="nav-link" href="keranjang.php">
+                <a class="nav-link collapsed" href="keranjang.php">
                     <i class="bi bi-envelope"></i>
                     <span>Keranjang</span>
                 </a>
@@ -197,10 +197,10 @@
                                     <?php
                                     include "koneksi.php";
                                     $no = 1;
-                                    
+
                                     //Ambil keyword pencarian dari GET
                                     $query = isset($_GET['query']) ? mysqli_real_escape_string($koneksi, $_GET['query']) : '';
-                                    
+
                                     //Tambahkan WHERE jika query tidak kosong
                                     $sql_query = "SELECT tb_produk.*, tb_kategori.nm_kategori FROM tb_produk LEFT JOIN tb_kategori ON tb_produk.id_kategori = tb_kategori.id_kategori";
 
@@ -216,30 +216,30 @@
                                     if (mysqli_num_rows($sql) > 0) {
                                         while ($hasil = mysqli_fetch_array($sql)) {
                                     ?>
-                                                <tr>
-                                                    <td><?php echo $no++; ?></td>
-                                                    <td><?php echo $hasil['nm_produk']; ?></td>
-                                                    <td>Rp <?php echo number_format($hasil['harga'], 0, ',', '.'); ?></td>
-                                                    <td><?php echo $hasil['stok']; ?></td>
-                                                    <td><?php echo $hasil['desk']; ?></td>
-                                                    <td><?php echo $hasil['nm_kategori']; ?></td>
-                                                    <td>
-                                                        <?php if (!empty($hasil['gambar'])) { ?>
+                                            <tr>
+                                                <td><?php echo $no++; ?></td>
+                                                <td><?php echo $hasil['nm_produk']; ?></td>
+                                                <td>Rp <?php echo number_format($hasil['harga'], 0, ',', '.'); ?></td>
+                                                <td><?php echo $hasil['stok']; ?></td>
+                                                <td><?php echo $hasil['desk']; ?></td>
+                                                <td><?php echo $hasil['nm_kategori']; ?></td>
+                                                <td>
+                                                    <?php if (!empty($hasil['gambar'])) { ?>
                                                         <img src="produk_img/<?php echo $hasil['gambar']; ?>" width="100">
                                                     <?php } else { ?>
                                                         Tidak ada gambar
                                                     <?php } ?>
-                                                    </td>
-                                                    <td>
-                                                        <a href="e_produk.php?id=<?php echo $hasil['id_produk']; ?>" class="btn btn-warning">
-                                                            <i class="bi bi-pencil-square"></i>
-                                                        </a>
-                                                        <a href="h_produk.php?id=<?php echo $hasil['id_produk']; ?>" class="btn btn-danger" onclick="return confirm('Apakah Anda Yakin Ingin Menghapus Data?')">
+                                                </td>
+                                                <td>
+                                                    <a href="e_produk.php?id=<?php echo $hasil['id_produk']; ?>" class="btn btn-warning">
+                                                        <i class="bi bi-pencil-square"></i>
+                                                    </a>
+                                                    <a href="h_produk.php?id=<?php echo $hasil['id_produk']; ?>" class="btn btn-danger" onclick="return confirm('Apakah Anda Yakin Ingin Menghapus Data?')">
                                                         <i class="bi bi-trash"></i>
-                                                        </a>                                              
-                                                    </td>
-                                                </tr>
-                                            <?php
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        <?php
                                         }
                                     } else {
                                         ?>
@@ -250,7 +250,7 @@
                                     }
                                     ?>
 
-                                    </tbody>
+                                </tbody>
                             </table>
                             <!-- End Table with stripped rows -->
 
