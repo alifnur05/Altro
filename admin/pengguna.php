@@ -207,9 +207,10 @@
 
                                     $sql = mysqli_query($koneksi, $sql_query);
                                     if (mysqli_num_rows($sql) > 0) {
+                                        $no = 1;
                                         while ($hasil = mysqli_fetch_array($sql)) {
                                     ?>
-                                             <tr>
+                                            <tr>
                                                 <td><?php echo $no++; ?></td>
                                                 <td><?php echo $hasil['username']; ?></td>
                                                 <td><?php echo $hasil['status']; ?></td>
