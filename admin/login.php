@@ -1,40 +1,20 @@
 <?php
 session_start();
-include "koneksi.php";
-
-// Cek apakah sudah login
-if (!isset($_SESSION["login"])) {
-    header("Location: login.php");
-    exit;
-}
-
-// Cek apakah status tersedia dan pastikan user adalah admin
-if (!isset($_SESSION["status"]) || $_SESSION["status"] !== "admin") {
-  echo "<script>
-    alert('Akses ditolak! Halaman ini hanya untuk Admin.');
-    window.location.href='login.php';
-    </script>;";
-    exit;
-}
-?>
-
-<?php
-session_start();
 require "koneksi.php";
 
-if(isset($_POST['login'])) {
-  $username = $_POST['username'];
-  $password = $_POST['password'];
+if (isset($_POST["login"])) {
+  $username = $_POST["username"];
+  $password = $_POST["password"];
 
-  //Cek apakah username ditemukan
+  // Cek apakah username ditemukan
   $result = mysqli_query($koneksi, "SELECT * FROM tb_user WHERE username='$username'");
 
   if (mysqli_num_rows($result) === 1) {
     $row = mysqli_fetch_assoc($result);
 
-    //Cek password
+    // Cek password
     if (password_verify($password, $row["password"])) {
-      //Cek apakah status user adalah admin
+      // Cek apakah status user adalah admin
       if ($row["status"] === "admin") {
         $_SESSION["login"] = true;
         $_SESSION["username"] = $row["username"];
@@ -52,6 +32,8 @@ if(isset($_POST['login'])) {
   }
 }
 ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -82,6 +64,7 @@ if(isset($_POST['login'])) {
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -95,9 +78,9 @@ if(isset($_POST['login'])) {
             <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
 
               <div class="d-flex justify-content-center py-4">
-                <a href="index.php" class="logo d-flex align-items-center w-auto">
+                <a href="index.html" class="logo d-flex align-items-center w-auto">
                   <img src="assets/img/logo.png" alt="">
-                  <span class="d-none d-lg-block">Altro</span>
+                  <span class="d-none d-lg-block">Altro Admin</span>
                 </a>
               </div><!-- End Logo -->
 
@@ -110,19 +93,20 @@ if(isset($_POST['login'])) {
                     <p class="text-center small">Enter your username & password to login</p>
                   </div>
 
-                  <form class="row g-3 needs-validation" method="post">
+                  <form class="row g-3" method="post">
 
                     <div class="col-12">
-                      <label for="yourUsername" class="form-label">Username</label>
-                      <div class="input-group has-validation">
+                      <label for="username" class="form-label">Username</label>
+                      <div class="input-group">
                         <input type="text" name="username" class="form-control" id="yourUsername" required>
                       </div>
                     </div>
 
                     <div class="col-12">
-                      <label for="yourPassword" class="form-label">Password</label>
+                      <label for="password" class="form-label">Password</label>
                       <input type="password" name="password" class="form-control" id="yourPassword" required>
                     </div>
+
                     <div class="col-12">
                       <button class="btn btn-primary w-100" type="submit" name="login">Login</button>
                     </div>
@@ -131,8 +115,8 @@ if(isset($_POST['login'])) {
                 </div>
               </div>
 
-              <div class="credits"> 
-                Designed by <a href="https://instagram.com/alif.nfdl/">Alif</a>
+              <div class="credits">
+                Designed by <a href="https://instagram.com/alif.nfdl/" target="_blank">Alif</a>
               </div>
 
             </div>
