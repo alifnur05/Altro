@@ -268,7 +268,7 @@
             &copy; Copyright <strong><span>Altro</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
-            Designed by <a href="https://instagram.com/namaig/">Alif</a>
+            Designed by <a href="https://instagram.com/alif.nfdl/">Alif</a>
         </div>
     </footer><!-- End Footer -->
 
