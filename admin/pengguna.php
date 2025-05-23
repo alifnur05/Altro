@@ -17,7 +17,6 @@ if (!isset($_SESSION["status"]) || $_SESSION["status"] !== "admin") {
     exit;
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 

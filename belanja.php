@@ -106,9 +106,8 @@ session_start();
                                         <?php
 
                                         if (isset($_SESSION['id_user'])) {
-                                        ?>
-                                            <!-- Jika belum login -->
-                                             <li class="hm-wishlist">
+                                        ?> <!-- jika belum login -->
+                                            <li class="hm-wishlist">
                                                 <a href="login.php" title="Login">
                                                     <i class="fa fa-user"></i>
                                                 </a>
@@ -116,11 +115,10 @@ session_start();
                                         <?php
                                         } else {
                                             // Ambil nama user dari session atau database jika mau
-                                            $nama_user = $_SESSION['Username']; // Pastikan diset saat login
-                                        ?>
-                                        <?php
-                                        }
-                                        ?>
+                                            if (isset($_SESSION['username'])) {
+                                            $nama_user = $_SESSION['username'];
+                                            }
+                                        } ?> <!--Pastikan diset saat login -->
                                             <!-- User icon with dropdown -->
                                              <li class="hm-wishlist dropdown">
                                                 <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -141,22 +139,8 @@ session_start();
                                                 </ul>
                                              </li>
 
-                                        <!-- Begin Header Middle Wishlist Area -->
-                                        <li class="hm-wishlist">
-                                            <a href="wishlist.html">
-                                                <span class="cart-item-count wishlist-item-count">0</span>
-                                                <i class="fa fa-heart-o"></i>
-                                            </a>
-                                        </li>
-                                        <!-- Header Middle Wishlist Area End Here -->
                                         <!-- Begin Header Mini Cart Area -->
                                         <li class="hm-minicart">
-                                            <div class="hm-minicart-trigger">
-                                                <span class="item-icon"></span>
-                                                <span class="item-text">£80.00
-                                                    <span class="cart-item-count">2</span>
-                                                </span>
-                                            </div>
                                             <span></span>
                                             <div class="minicart">
                                                 <ul class="minicart-product-list">
@@ -257,35 +241,15 @@ session_start();
                     <div class="row">
                         <div class="col-lg-9 order-1 order-lg-2">
                             <div class="col-sm-12 col-md-12 col-xs-12 col-lg-6 mb-30">
-                                <!-- Login Form s-->
-                                <form method="post">
-                                <div class="login-form">
-                                    <h4 class="login-title">Login</h4>
-                                    <div class="row">
-                                    <div class="col-md-12 col-12 mb-20">
-                                        <label>Username</label>
-                                        <input class="mb-0" type="text" placeholder="Masukkan Username" name="username" required>
-                                    </div>
-                                    <div class="col-12 mb-20">
-                                        <label>Password</label>
-                                        <input class="mb-0" type="password" placeholder="Masukkan Password" name="password" required>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <button class="register-button mt-0" type="submit" name="login">Login</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
                             <!-- Begin Li's Banner Area -->
                             <div class="single-banner shop-page-banner">
                                 <a href="#">
-                                    <img src="images/bg-banner/2.jpg" alt="Li's Static Banner">
+                                    <img src="img/aal.jpg.jpeg" alt="Li's Static Banner">
                                 </a>
                             </div>
                             <!-- Li's Banner Area End Here -->
                             <!-- shop-top-bar start -->
-                            <div class="shop-top-bar mt-30">
+                            <div class="shop-top-bar mt-6">
                                 <div class="shop-bar-inner">
                                     <div class="product-view-mode">
                                         <!-- shop-item-filter-list start -->
@@ -293,11 +257,20 @@ session_start();
                                             <li role="presentation"><a data-toggle="tab" role="tab" aria-controls="grid-view" href="#grid-view"><i class="fa fa-th"></i></a></li>
                                             <li class="active" role="presentation"><a aria-selected="true" class="active show" data-toggle="tab" role="tab" aria-controls="list-view" href="#list-view"><i class="fa fa-th-list"></i></a></li>
                                         </ul>
+                                        
                                         <!-- shop-item-filter-list end -->
-                                         </div>
-                                    <div class="toolbar-amount">
-                                        <span>Showing 1 to 9 of 15</span>
                                     </div>
+                                </div>
+                            </div>
+                                <div class="filter-info-wrapper">
+                                    <div class="filter-sub-area pt-sm-10 pt-xs-10">
+                                    <!-- isi filter -->
+                                    </div>
+
+                                    <div class="toolbar-amount">
+                                        <span>Menampilkan 1 hingga 1 dari 1 produk</span>
+                                    </div>
+                                    
                                     <!-- shop-item-filter-list end -->
                                     </div>
                                     <?php
@@ -344,13 +317,16 @@ session_start();
                                     $query = mysqli_query($koneksi, $sql);
                                     while ($data = mysqli_fetch_assoc($query)) {
                                     ?>
-
                                         <div class="col-lg-4 col-md-4 col-sm-6 mt-40">
                                             <div class="single-product-wrap">
-                                                <div class="product-image">
+                                                <div class="product-image" float: right; 
+                                                    margin-right: 20px;>
+                                                    <div class="product-wrapper-after" display: table;
+                                                    clear: both;>
                                                     <a href="detail_produk.php?id=<?= $data['id_produk']; ?>">
                                                         <img src="admin/produk_img/<?= $data['gambar']; ?>" alt="<?= $data['nm_produk']; ?>" width="300" height="300">
                                                     </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                                 <div class="col-lg-5 col-md-7">
@@ -372,7 +348,7 @@ session_start();
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-4">
+                                                <div class="col-lg-6">
                                                     <div class="shop-add-actions mb-xs-30">
                                                         <ul class="add-actions-link">
                                                             <li class="add-cart">
@@ -424,13 +400,15 @@ session_start();
                             <!--sidebar-categores-box start  -->
                             <div class="sidebar-categores-box">
                                 <div class="sidebar-tittle">
-                                    <h2>Filter</h2>
+                                   <h2 style="font-size: 16px;">Filter</h2>
+
                                 </div>
                                 <!-- btn-clear-all start -->
                                  <button class="btn-clear-all mb-sm-30 mb-xs-30" onclick="window.location.href='<?= basename($_SERVER['PHP_SELF']) ?>'">Clear all</button>
                                 <!-- btn-clear-all end -->
                                  <!-- filter-sub-area start -->
-                                <div class="filter-sub-area pt-sm-10 pt-xs-10">
+                                  
+                                <div class="filter-sub-area pt-sm-6 pt-xs-6">
                                     <h5 class="filter-sub-titel">Kategori Produk</h5>
                                     <div class="categori-checkbox">
                                         <form action="" method="get">
@@ -450,7 +428,6 @@ session_start();
                                                     }
                                                 ?>
                                             </ul>
-                                                ?>
                                                 <li><input type="checkbox" name="product-categori"><a href="#">Laptop</a></li>
                                                 <li><input type="checkbox" name="product-categori"><a href="#">HP</a></li>
                                             </ul>
@@ -703,6 +680,7 @@ session_start();
                             <div class="modal-inner-area row">
                                 <div class="col-lg-5 col-md-6 col-sm-6">
                                    <!-- Product Details Left -->
+                                    <div class="product-container">
                                     <div class="product-details-left">
                                         <div class="product-details-images slider-navigation-1">
                                             <div class="lg-image">
@@ -723,6 +701,7 @@ session_start();
                                             <div class="lg-image">
                                                 <img src="images/product/large-size/6.jpg" alt="product image">
                                             </div>
+                                        </div>
                                         </div>
                                         <div class="product-details-thumbs slider-thumbs-1">                                        
                                             <div class="sm-image"><img src="images/product/small-size/1.jpg" alt="product image thumb"></div>
