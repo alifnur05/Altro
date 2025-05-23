@@ -121,9 +121,7 @@ session_start();
                                         } ?> <!--Pastikan diset saat login -->
                                             <!-- User icon with dropdown -->
                                              <li class="hm-wishlist dropdown">
-                                                <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                    <i class="fa fa-user"></i>
-                                                </a>
+                                               
                                                 <ul class="dropdown-menu" style="padding: 10px; min-width: 150px; text-align: center;">
                                                     <li style="padding: 5px 10px; font-weight: bold;">
                                                         <?= htmlspecialchars($nama_user) ?>
