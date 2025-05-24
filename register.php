@@ -365,7 +365,7 @@ $data = mysqli_fetch_array($sql);
                             <!-- Footer Payment Area End Here -->
                             <!-- Begin Copyright Area -->
                             <div class="copyright text-center pt-25">
-                                <span><a target="_blank" href="https://instagram.com/cakraprama/">Designed by: Alifna</a></span>
+                                <span><a target="_blank" href="https://instagram.com/alif.nfdl/">Designed by: Alifna</a></span>
                             </div>
                             <!-- Copyright Area End Here -->
                         </div>
