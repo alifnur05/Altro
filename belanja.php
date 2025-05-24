@@ -514,6 +514,7 @@ session_start();
                                 <!-- Begin Footer Logo Area -->
                                 <div class="col-lg-4 col-md-6">
                                     <div class="footer-logo">
+                                        <h1>Altro</h1>
                                         <img src="imag/aal.jpg.jpeg" alt="Footer Logo">
                                         <p class="info">
                                             Temukan semua kebutuhanmu disini. Belanja puas, uang-pun hemat.
