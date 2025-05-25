@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Altro Admin</title>
+    <title>Altro admin</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -63,13 +63,13 @@
                 <li class="nav-item dropdown pe-3">
 
                     <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-                        <img src="assets/img/aal.jpg" alt="Profile" class="rounded-circle">
+                        <img src="assets/img/elang.jpeg" alt="Profile" class="rounded-circle">
                         <!-- profile-img.jpg diganti dengan foto kalian -->
                     </a><!-- End Profile Iamge Icon -->
 
                     <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
                         <li class="dropdown-header">
-                            <h6>Alif</h6>
+                            <h6>Alifna</h6>
                             <span>Admin</span>
                         </li>
                         <li>
@@ -80,7 +80,7 @@
                         </li>
 
                         <li>
-                            <a class="dropdown-item d-flex align-items-center" href="#">
+                            <a class="dropdown-item d-flex align-items-center" href="logout.php">
                                 <i class="bi bi-box-arrow-right"></i>
                                 <span>Sign Out</span>
                             </a>
@@ -92,63 +92,90 @@
             </ul>
         </nav><!-- End Icons Navigation -->
 
+    </header><!-- End Header -->
+
     <!-- ======= Sidebar ======= -->
-    <aside id="sidebar" class="sidebar">
+  <aside id="sidebar" class="sidebar">
 
-        <ul class="sidebar-nav" id="sidebar-nav">
+<ul class="sidebar-nav" id="sidebar-nav">
 
-            <li class="nav-item">
-                <a class="nav-link " href="index.php">
-                    <i class="bi bi-bag-heart"></i>
-                    <span>Beranda</span>
-                </a>
-            </li><!-- End Dashboard Nav -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="kategori.php">
-                    <i class="bi bi-book"></i>
-                    <span>Kategori</span>
-                </a>
-            </li><!-- End Kategori Page Nav -->
+  <li class="nav-item">
+    <a class="nav-link " href="index.php">
+      <i class="bi bi-grid"></i>
+      <span>Beranda</span>
+    </a>
+  </li><!-- End Dashboard Nav -->
 
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="produk.php">
-                    <i class="bi bi-bookmarks"></i>
-                    <span>Produk</span>
-                </a>
-            </li><!-- End Produk Page Nav -->
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="kategori.php">
+    <i class="bi bi-app-indicator"></i>
+      <span>Kategori produk</span>
+    </a>
+  </li><!-- End kategori Page Nav -->
 
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="keranjang.php">
-                    <i class="bi bi-box2-heart"></i>
-                    <span>Keranjang</span>
-                </a>
-            </li><!-- End Keranjang Page Nav -->
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="produk.php">
+    <i class="bi bi-bag-fill"></i>
+      <span>Produk</span>
+    </a>
+  </li><!-- End produk Page Nav -->
 
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="transaksi.php">
-                    <i class="bi bi-cash-coin"></i>
-                    <span>Transaksi</span>
-                </a>
-            </li><!-- End Transaksi Page Nav -->
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="keranjang.php">
+    <i class="bi bi-cart-check"></i>
+      <span>Keranjang</span>
+    </a>
+  </li><!-- End keranjang Page Nav -->
 
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="laporan.php">
-                    <i class="bi bi-chat-left-dots"></i>
-                    <span>Laporan</span>
-                </a>
-            </li><!-- End Laporan Page Nav -->
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="transaksi.php">
+    <i class="bi bi-cash"></i>
+      <span>Transaksi</span>
+    </a>
+  </li><!-- End transaksi Page Nav -->
 
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="pengguna.php">
-                    <i class="bi bi-emoji-laughing"></i>
-                    <span>Pengguna</span>
-                </a>
-            </li><!-- End pengguna Page Nav -->
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="laporan.php">
+    <i class="bi bi-envelope"></i>
+      <span>Laporan</span>
+    </a>
+  </li><!-- End Laporan Page Nav -->
 
-        </ul>
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="pengguna.php">
+    <i class="bi bi-person-add"></i>
+      <span>Pengguna</span>
+    </a>
+  </li><!-- End pengguna Page Nav -->
 
-    </aside><!-- End Sidebar-->
+</ul>
 
+</aside><!-- End Sidebar-->
+
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="transaksi.php">
+    <i class="bi bi-cash"></i>
+      <span>Transaksi</span>
+    </a>
+  </li><!-- End transaksi Page Nav -->
+
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="laporan.php">
+    <i class="bi bi-envelope"></i>
+      <span>Laporan</span>
+    </a>
+  </li><!-- End Laporan Page Nav -->
+
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="pengguna.php">
+    <i class="bi bi-person-add"></i>
+      <span>Pengguna</span>
+    </a>
+  </li><!-- End pengguna Page Nav -->
+
+</ul>
+
+</aside><!-- End Sidebar-->
     <main id="main" class="main">
 
         <div class="pagetitle">
@@ -189,9 +216,9 @@
                                         <th scope="col">Nama Produk</th>
                                         <th scope="col">Harga</th>
                                         <th scope="col">Stok</th>
-                                        <th scope="col">Nama Kategori</th>
-                                        <th scope="col">Gambar</th>
-                                        <th scope="col">Aksi</th>
+                                        <th scope="col">Deskripsi</th>
+                                        <th scope="col">kategori produk</th>
+                                        <th scope="col">gambar</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -199,58 +226,59 @@
                                     include "koneksi.php";
                                     $no = 1;
 
-                                    //Ambil keyword pencarian dari GET
+                                    // Ambil keyword pencarian dari GET 
                                     $query = isset($_GET['query']) ? mysqli_real_escape_string($koneksi, $_GET['query']) : '';
 
-                                    //Tambahkan WHERE jika query tidak kosong
-                                    $sql_query = "SELECT tb_produk.*, tb_kategori.nm_kategori FROM tb_produk LEFT JOIN tb_kategori ON tb_produk.id_kategori = tb_kategori.id_kategori";
+                                    // Tambahkan where jika query tidak kosong 
+                                    $sql_query = "SELECT tb_produk.* , tb_kategori.nm_kategori FROM  tb_produk LEFT JOIN tb_kategori ON tb_produk.id_kategori = tb_kategori.id_kategori";
 
                                     if (!empty($query)) {
-                                        $sql_query .= " WHERE tb_produk.nm_produk LIKE '%$query%' OR tb_kategori.nm_kategori LIKE '%$query%' OR tb_produk.desk LIKE '%$query%'";
+                                        $sql_query .= " where tb_produk.nm_produk LIKE '%$query%' OR tb_kategori.nm_kategori LIKE '%$query%' OR tb_produk.desk LIKE '%$query%'";
                                     }
 
-                                    //Tambahkan ORDER BY
+                                    // Tambahkan ORDER BY 
                                     $sql_query .= " ORDER BY tb_produk.id_produk ASC";
 
                                     $sql = mysqli_query($koneksi, $sql_query);
 
-                                    if (mysqli_num_rows($sql) > 0) {
-                                        while ($hasil = mysqli_fetch_array($sql)) {
+                                    if (mysqli_num_rows($sql)> 0) {
+                                        while ( $hasil = mysqli_fetch_array($sql)) {
                                     ?>
                                             <tr>
                                                 <td><?php echo $no++; ?></td>
                                                 <td><?php echo $hasil['nm_produk']; ?></td>
-                                                <td>Rp <?php echo number_format($hasil['harga'], 0, ',', '.'); ?></td>
+                                                <td>Rp <?php echo number_format($hasil['harga'], 0, ', ', '.' ); ?></td>
                                                 <td><?php echo $hasil['stok']; ?></td>
                                                 <td><?php echo $hasil['desk']; ?></td>
                                                 <td><?php echo $hasil['nm_kategori']; ?></td>
                                                 <td>
                                                     <?php if (!empty($hasil['gambar'])) { ?>
-                                                        <img src="produk_img/<?php echo $hasil['gambar']; ?>" width="100">
+                                                        <img src="produk_img/<?php echo $hasil['gambar']; ?> "width="100">
                                                     <?php } else { ?>
-                                                        Tidak ada gambar
+                                                        tidak ada gambar
                                                     <?php } ?>
                                                 </td>
                                                 <td>
-                                                    <a href="e_produk.php?id=<?php echo $hasil['id_produk']; ?>" class="btn btn-warning">
+                                                    <a href = "e_produk.php?id=<?php echo $hasil['id_produk']; ?>" class="btn btn-warning">
                                                         <i class="bi bi-pencil-square"></i>
                                                     </a>
-                                                    <a href="h_produk.php?id=<?php echo $hasil['id_produk']; ?>" class="btn btn-danger" onclick="return confirm('Apakah Anda Yakin Ingin Menghapus Data?')">
+                                                    <a href="h_produk.php?id=<?php echo $hasil['id_produk']; ?>" class="btn btn-danger" onclick="return confirm('apakah anda yakin ingin menghapus data?')">
                                                         <i class="bi bi-trash"></i>
                                                     </a>
                                                 </td>
                                             </tr>
                                         <?php
-                                        }
-                                    } else {
-                                        ?>
-                                        <tr>
-                                            <td colspan="8" class="text-center">Belum Ada Data</td>
-                                        </tr>
-                                    <?php
                                     }
+                                } else {
                                     ?>
-
+                                    <tr>
+                                        <td colspan="8" class="text-center">Belum ada Data</td>
+                                    </tr>
+                                <?php
+                                }
+                                ?>
+     
+                                       
                                 </tbody>
                             </table>
                             <!-- End Table with stripped rows -->
@@ -269,7 +297,7 @@
             &copy; Copyright <strong><span>Altro</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
-            Designed by <a href="https://instagram.com/alif.nfdl/">Alif</a>
+            Designed by <a href="https://instagram.com/alif.nfdl/">Alifna</a>
         </div>
     </footer><!-- End Footer -->
 
