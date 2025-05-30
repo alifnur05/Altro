@@ -354,8 +354,6 @@ session_start();
                                         
                                         <div class="product-social-sharing pt-25">
                                             <ul>
-                                                <li class="facebook"><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
-                                                <li class="twitter"><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
                                                 <li class="instagram"><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
                                             </ul>
                                         </div>
@@ -459,24 +457,24 @@ session_start();
                     <!-- Begin Footer Shipping Area -->
                     <div class="footer-shipping pt-60 pb-55 pb-xs-25">
                         <div class="row">
-                            <!-- Mulai Area Kotak Pengiriman Li -->
-                            <div class="col-lg-3 col-md-6 col-sm-6 pb-sm-55 pb-xs-55">
-                                <div class="li-shipping-inner-box">
-                                    <div class="shipping-icon">
-                                        <img src="images/shipping-icon/1.png" alt="Ikon Pengiriman">
-                                    </div>
-                                    <div class="shipping-text">
+                             <!-- Mulai Area Kotak Pengiriman Li -->
+                            <div class="row text-center align-items-stretch">
+                                <div class="col-lg-3 col-md-6 pb-55">
+                                    <div class="li-shipping-inner-box h-100">
+                                        <div class="shipping-icon">
+                                            <img src="images/shipping-icon/1.png" alt="Delivery Icon">
+                                        </div>
+                                        <div class="shipping-text">
                                             <h2>Delivery</h2>
                                             <p>Delivery atau ambil ditempat pun bisa.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Li's Shipping Inner Box Area End Here -->
-                                <!-- Begin Li's Shipping Inner Box Area -->
-                                <div class="col-lg-3 col-md-6 col-sm-6 pb-sm-55 pb-xs-55">
-                                    <div class="li-shipping-inner-box">
+
+                                <div class="col-lg-3 col-md-6 pb-55">
+                                    <div class="li-shipping-inner-box h-100">
                                         <div class="shipping-icon">
-                                            <img src="images/shipping-icon/2.png" alt="Shipping Icon">
+                                            <img src="images/shipping-icon/2.png" alt="Payment Icon">
                                         </div>
                                         <div class="shipping-text">
                                             <h2>Payment</h2>
@@ -484,19 +482,32 @@ session_start();
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Li's Shipping Inner Box Area End Here -->
-                                <!-- Begin Li's Shipping Inner Box Area -->
-                                <div class="col-lg-3 col-md-6 col-sm-6 pb-xs-30">
-                                    <div class="li-shipping-inner-box">
+
+                                <div class="col-lg-3 col-md-6 pb-55">
+                                    <div class="li-shipping-inner-box h-100">
                                         <div class="shipping-icon">
-                                            <img src="images/shipping-icon/3.png" alt="Shipping Icon">
+                                            <img src="images/shipping-icon/3.png" alt="Privacy Icon">
                                         </div>
                                         <div class="shipping-text">
                                             <h2>Privacy</h2>
                                             <p>100% privacy for user.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 pb-55">
+                                    <div class="li-shipping-inner-box h-100">
+                                        <div class="shipping-icon">
+                                            <img src="images/shipping-icon/4.png" alt="Help Icon">
+                                        </div>
+                                        <div class="shipping-text">
+                                            <h2>24/7 Help Center</h2>
+                                            <p>Have a question? Call the e-mail.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+
                             <!-- Akhir Area Kotak Pengiriman Li -->
 
                             <!-- Mulai Area Kotak Pengiriman Li -->
@@ -564,23 +575,8 @@ session_start();
                                 <div class="footer-block">
                                     <h3 class="footer-block-title">Follow us</h3>
                                     <ul class="social-link">
-                                        <li class="twitter">
-                                            <a href="https://twitter.com/" data-toggle="tooltip" target="_blank" title="Twitter">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li class="facebook">
-                                            <a href="https://www.facebook.com/" data-toggle="tooltip" target="_blank" title="Facebook">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li class="youtube">
-                                            <a href="https://www.youtube.com/" data-toggle="tooltip" target="_blank" title="Youtube">
-                                                <i class="fa fa-youtube"></i>
-                                            </a>
-                                        </li>
                                         <li class="instagram">
-                                            <a href="https://www.instagram.com/" data-toggle="tooltip" target="_blank" title="Instagram">
+                                            <a href="https://instagram.com/alif.nfdl/" data-toggle="tooltip" target="_blank" title="Instagram">
                                                 <i class="fa fa-instagram"></i>
                                             </a>
                                         </li>
