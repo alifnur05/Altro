@@ -510,22 +510,6 @@ session_start();
 
                             <!-- Akhir Area Kotak Pengiriman Li -->
 
-                            <!-- Mulai Area Kotak Pengiriman Li -->
-                            <div class="col-lg-3 col-md-6 col-sm-6 pb-xs-30">
-                                <div class="li-shipping-inner-box">
-                                    <div class="shipping-icon">
-                                        <img src="images/shipping-icon/4.png" alt="Ikon Pengiriman">
-                                    </div>
-                                    <div class="shipping-text">
-                                        <h2>24/7 Help Center</h2>
-                                            <p>Have a question? Call the e-mail.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Akhir Area Kotak Pengiriman Li -->
-                        </div>
-                    </div>
-
                     <!-- Footer Shipping Area End Here -->
                 </div>
             </div>

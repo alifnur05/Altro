@@ -216,7 +216,7 @@ if (!isset($_SESSION["status"]) || $_SESSION["status"] !== "admin") {
             </div><!-- End Sales Card -->
 
             <!-- Revenue Card -->
-            <div class="col-xxl-4 col-md-6">
+            <div class="col-xxl-6 col-md-6">
               <div class="card info-card revenue-card">
                 <div class="card-body">
                   <h5 class="card-title">Pendapatan <span>| Hari ini</span></h5>
@@ -236,7 +236,6 @@ if (!isset($_SESSION["status"]) || $_SESSION["status"] !== "admin") {
           </div>
         </div><!-- End Left side columns -->
       </div>
-          
     </section>
   </main><!-- End #main -->
 
