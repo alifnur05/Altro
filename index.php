@@ -5,7 +5,7 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Home Version One || limupa - Digital Products Store eCommerce Bootstrap 4 Template</title>
+        <title>Home Version One || Altro - Digital Products Store eCommerce Bootstrap 4 Template</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
@@ -55,10 +55,14 @@
                 <div class="header-top">
                     <div class="container">
                         <div class="row">
+                            <!-- Begin Header Top Left Area -->
+                            
+                            <!-- Header Top Left Area End Here -->
                             <!-- Begin Header Top Right Area -->
                             <div class="col-lg-9 col-md-8">
                                 <div class="header-top-right">
                                     <ul class="ht-menu">
+                                        
                                     </ul>
                                 </div>
                             </div>
@@ -167,7 +171,7 @@
                                         <li class="hm-wishlist">
                                             <a href="wishlist.html">
                                                 <span class="cart-item-count wishlist-item-count">0</span>
-                                                <i class="fa fa-heart-o"></i>
+                                                <i class="fa fa-user-o"></i>
                                             </a>
                                         </li>
                                         <!-- Header Middle Wishlist Area End Here -->
@@ -237,7 +241,7 @@
                                 <div class="hb-menu">
                                     <nav>
                                         <ul>
-                                            <li class="dropdown-holder"><a href="index.html">Home</a>
+                                            <li class="dropdown-holder"><a href="index.html">beranda</a>
                                                 <ul class="hb-dropdown">
                                                     <li class="active"><a href="index.html">Home One</a></li>
                                                     <li><a href="index-2.html">Home Two</a></li>
@@ -245,7 +249,7 @@
                                                     <li><a href="index-4.html">Home Four</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="megamenu-holder"><a href="shop-left-sidebar.html">Shop</a>
+                                            <li class="megamenu-holder"><a href="shop-left-sidebar.html">belanja</a>
                                                 <ul class="megamenu hb-megamenu">
                                                     <li><a href="shop-left-sidebar.html">Shop Page Layout</a>
                                                         <ul>
@@ -279,7 +283,7 @@
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li class="dropdown-holder"><a href="blog-left-sidebar.html">Blog</a>
+                                            <li class="dropdown-holder"><a href="blog-left-sidebar.html">Hubungi kami</a>
                                                 <ul class="hb-dropdown">
                                                     <li class="sub-dropdown-holder"><a href="blog-left-sidebar.html">Blog Grid View</a>
                                                         <ul class="hb-dropdown hb-sub-dropdown">
@@ -2946,47 +2950,44 @@
                                             <img src="images/shipping-icon/1.png" alt="Shipping Icon">
                                         </div>
                                         <div class="shipping-text">
-                                            <h2>Free Delivery</h2>
-                                            <p>And free returns. See checkout for delivery dates.</p>
+                                            <h2>Delivery</h2>
+                                            <p>Delivery atau ambil ditempat pun bisa.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Li's Shipping Inner Box Area End Here -->
-                                <!-- Begin Li's Shipping Inner Box Area -->
-                                <div class="col-lg-3 col-md-6 col-sm-6 pb-sm-55 pb-xs-55">
-                                    <div class="li-shipping-inner-box">
+
+                                <div class="col-lg-3 col-md-6 pb-55">
+                                    <div class="li-shipping-inner-box h-100">
                                         <div class="shipping-icon">
-                                            <img src="images/shipping-icon/2.png" alt="Shipping Icon">
+                                            <img src="images/shipping-icon/2.png" alt="Payment Icon">
                                         </div>
                                         <div class="shipping-text">
-                                            <h2>Safe Payment</h2>
-                                            <p>Pay with the world's most popular and secure payment methods.</p>
+                                            <h2>Payment</h2>
+                                            <p>Tunai, transfer, Qris.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Li's Shipping Inner Box Area End Here -->
-                                <!-- Begin Li's Shipping Inner Box Area -->
-                                <div class="col-lg-3 col-md-6 col-sm-6 pb-xs-30">
-                                    <div class="li-shipping-inner-box">
+
+                                <div class="col-lg-3 col-md-6 pb-55">
+                                    <div class="li-shipping-inner-box h-100">
                                         <div class="shipping-icon">
-                                            <img src="images/shipping-icon/3.png" alt="Shipping Icon">
+                                            <img src="images/shipping-icon/3.png" alt="Privacy Icon">
                                         </div>
                                         <div class="shipping-text">
-                                            <h2>Shop with Confidence</h2>
-                                            <p>Our Buyer Protection covers your purchasefrom click to delivery.</p>
+                                            <h2>Privacy</h2>
+                                            <p>100% privacy for user.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Li's Shipping Inner Box Area End Here -->
-                                <!-- Begin Li's Shipping Inner Box Area -->
-                                <div class="col-lg-3 col-md-6 col-sm-6 pb-xs-30">
-                                    <div class="li-shipping-inner-box">
+
+                                <div class="col-lg-3 col-md-6 pb-55">
+                                    <div class="li-shipping-inner-box h-100">
                                         <div class="shipping-icon">
-                                            <img src="images/shipping-icon/4.png" alt="Shipping Icon">
+                                            <img src="images/shipping-icon/4.png" alt="Help Icon">
                                         </div>
                                         <div class="shipping-text">
                                             <h2>24/7 Help Center</h2>
-                                            <p>Have a question? Call a Specialist or chat online.</p>
+                                            <p>Have a question? Call the e-mail.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -3005,85 +3006,34 @@
                                 <!-- Begin Footer Logo Area -->
                                 <div class="col-lg-4 col-md-6">
                                     <div class="footer-logo">
-                                        <img src="images/menu/logo/1.jpg" alt="Footer Logo">
-                                        <p class="info">
-                                            We are a team of designers and developers that create high quality HTML Template & Woocommerce, Shopify Theme.
+                                        <h1>Altro</h1>
+                                    <p class="info">
+                                            Temukan semua kebutuhanmu disini. Belanja puas, uang-pun hemat.
                                         </p>
                                     </div>
                                     <ul class="des">
                                         <li>
                                             <span>Address: </span>
-                                            6688Princess Road, London, Greater London BAS 23JK, UK
+                                            Sekolah Tinggi Teknologi Ronggolawe Cepu
                                         </li>
                                         <li>
                                             <span>Phone: </span>
-                                            <a href="#">(+123) 123 321 345</a>
+                                            <a href="#">085212221394</a>
                                         </li>
                                         <li>
                                             <span>Email: </span>
-                                            <a href="mailto://info@yourdomain.com">info@yourdomain.com</a>
+                                            <a href="alifnanur05@gmail.com">alifnanur05@gmail.com</a>
                                         </li>
                                     </ul>
                                 </div>
                                 <!-- Footer Logo Area End Here -->
                                 <!-- Begin Footer Block Area -->
-                                <div class="col-lg-2 col-md-3 col-sm-6">
-                                    <div class="footer-block">
-                                        <h3 class="footer-block-title">Product</h3>
-                                        <ul>
-                                            <li><a href="#">Prices drop</a></li>
-                                            <li><a href="#">New products</a></li>
-                                            <li><a href="#">Best sales</a></li>
-                                            <li><a href="#">Contact us</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- Footer Block Area End Here -->
-                                <!-- Begin Footer Block Area -->
-                                <div class="col-lg-2 col-md-3 col-sm-6">
-                                    <div class="footer-block">
-                                        <h3 class="footer-block-title">Our company</h3>
-                                        <ul>
-                                            <li><a href="#">Delivery</a></li>
-                                            <li><a href="#">Legal Notice</a></li>
-                                            <li><a href="#">About us</a></li>
-                                            <li><a href="#">Contact us</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- Footer Block Area End Here -->
-                                <!-- Begin Footer Block Area -->
                                 <div class="col-lg-4">
                                     <div class="footer-block">
                                         <h3 class="footer-block-title">Follow Us</h3>
                                         <ul class="social-link">
-                                            <li class="twitter">
-                                                <a href="https://twitter.com/" data-toggle="tooltip" target="_blank" title="Twitter">
-                                                    <i class="fa fa-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li class="rss">
-                                                <a href="https://rss.com/" data-toggle="tooltip" target="_blank" title="RSS">
-                                                    <i class="fa fa-rss"></i>
-                                                </a>
-                                            </li>
-                                            <li class="google-plus">
-                                                <a href="https://www.plus.google.com/discover" data-toggle="tooltip" target="_blank" title="Google Plus">
-                                                    <i class="fa fa-google-plus"></i>
-                                                </a>
-                                            </li>
-                                            <li class="facebook">
-                                                <a href="https://www.facebook.com/" data-toggle="tooltip" target="_blank" title="Facebook">
-                                                    <i class="fa fa-facebook"></i>
-                                                </a>
-                                            </li>
-                                            <li class="youtube">
-                                                <a href="https://www.youtube.com/" data-toggle="tooltip" target="_blank" title="Youtube">
-                                                    <i class="fa fa-youtube"></i>
-                                                </a>
-                                            </li>
                                             <li class="instagram">
-                                                <a href="https://www.instagram.com/" data-toggle="tooltip" target="_blank" title="Instagram">
+                                                <a href="https://instagram.com/alif.nfdl/" data-toggle="tooltip" target="_blank" title="Instagram">
                                                     <i class="fa fa-instagram"></i>
                                                 </a>
                                             </li>
@@ -3148,7 +3098,7 @@
                                 <!-- Footer Payment Area End Here -->
                                 <!-- Begin Copyright Area -->
                                 <div class="copyright text-center pt-25">
-                                    <span><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></span>
+                                    <span><a target="_blank" href="https://instagram.com/alif.nfdl/">Alif</a></span>
                                 </div>
                                 <!-- Copyright Area End Here -->
                             </div>
