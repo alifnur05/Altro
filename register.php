@@ -285,8 +285,8 @@ $data = mysqli_fetch_array($sql);
                                 <div class="footer-logo">
                                     <h1>Altro</h1>
                                     <p class="info">
-                                      Welcome to Altro!
-                                      Cari apapun, butuh apapun, Altro sedia dimanapun dan kapanpun.
+                                        Investasi Tepat, Kualitas Hebat.
+                                        Enggak Usah Pindah Tempat, Di Sini Semua Tepat.
                                 </div>
                                     <ul class="des">
                                     <li>
@@ -321,7 +321,7 @@ $data = mysqli_fetch_array($sql);
                                     <h3 class="footer-block-title">Follow us</h3>
                                     <ul class="social-link">
                                         <li class="instagram">
-                                            <a href="https://www.instagram.com/" data-toggle="tooltip" target="_blank" title="Instagram">
+                                            <a href="https://www.instagram.com/alif.nfdl" data-toggle="tooltip" target="_blank" title="Instagram">
                                                 <i class="fa fa-instagram"></i>
                                             </a>
                                         </li>

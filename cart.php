@@ -527,7 +527,8 @@ session_start();
                                    <h1>Altro</h1>
                                         <img src="imag/aal.jpg.jpeg" alt="Footer Logo">
                                         <p class="info">
-                                            Temukan semua kebutuhanmu disini. Belanja puas, uang-pun hemat.
+                                            Investasi Tepat, Kualitas Hebat.
+                                            Enggak Usah Pindah Tempat, Di Sini Semua Tepat.
                                         </p>
                                     </div>
                                     <ul class="des">

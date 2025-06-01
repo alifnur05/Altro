@@ -190,7 +190,7 @@ if (!isset($_SESSION["status"]) || $_SESSION["status"] !== "admin") {
               <div class="card info-card customers-card shadow-sm w-100">
                 <div class="card-body text-center py-4">
                   <h4 class="mb-2"> Welcome to Website Admin <strong>Altro</strong></h4>
-                  <p class="text-muted small mb-0">Hanya menjual peralatan elektronik, bukan jual perasaan.</p>
+                  <p class="text-muted small mb-0">Investasi Tepat, Kualitas Hebat.Enggak Usah Pindah Tempat, Di Sini Semua Tepat.</p>
                 </div>
               </div>
             </div><!-- End Welcome Card -->
@@ -200,14 +200,14 @@ if (!isset($_SESSION["status"]) || $_SESSION["status"] !== "admin") {
               <div class="card info-card sales-card">
 
                 <div class="card-body">
-                  <h5 class="card-title">Pesanan <span>| Minggu ini</span></h5>
+                  <h5 class="card-title">Pesanan <span>| Hari ini</span></h5>
 
                   <div class="d-flex align-items-center">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
                       <i class="bi bi-basket"></i>
                     </div>
                     <div class="ps-3">
-                      <h6>14500</h6>
+                      <h6>970</h6>
                     </div>
                   </div>
                 </div>
@@ -226,7 +226,7 @@ if (!isset($_SESSION["status"]) || $_SESSION["status"] !== "admin") {
                       <i class="bi bi-currency-dollar"></i>
                     </div>
                     <div class="ps-3">
-                      <h6>Rp. 15.932.264</h6>
+                      <h6>Rp. 125.932.264</h6>
                     </div>
                   </div>
                 </div>

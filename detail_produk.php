@@ -524,7 +524,8 @@ session_start();
                                 <div class="footer-logo">
                                     <h1>Altro</h1>
                                     <p class="info">
-                                            Temukan semua kebutuhanmu disini. Belanja puas, uang-pun hemat.
+                                            Investasi Tepat, Kualitas Hebat.
+                                            Enggak Usah Pindah Tempat, Di Sini Semua Tepat.
                                         </p>
                                     </div>
                                     <ul class="des">

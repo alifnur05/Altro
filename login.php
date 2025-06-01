@@ -273,7 +273,8 @@ if (isset($_POST["login"])) {
                         <div class="banner-wrapper text-center">
                             <img src="images/bg-banner/4.png" alt="Banner Toko Elektronik" class="img-fluid" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); max-width: 100%;">
                             <p class="mt-3" style="font-size: 16px; color: #555;">
-                               Temukan semua kebutuhanmu disini. Belanja puas, uang-pun hemat.<br>
+                                Investasi Tepat, Kualitas Hebat.
+                                Enggak Usah Pindah Tempat, Di Sini Semua Tepat.<br>
                                 <a href="register.php" style="color: #007bff; text-decoration: underline;">Belum punya akun? Register di sini.</a>
                             </p>
                         </div>
