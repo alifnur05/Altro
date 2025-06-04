@@ -93,56 +93,55 @@
 
     </header><!-- End Header -->
 
-    <!-- ======= Sidebar ======= -->
+   <!-- ======= Sidebar ======= -->
     <aside id="sidebar" class="sidebar">
 
         <ul class="sidebar-nav" id="sidebar-nav">
 
             <li class="nav-item">
-                <a class="nav-link collapsed" href="index.php">
-                    <i class="bi bi-grid"></i>
+                <a class="nav-link collapsed " href="index.php">
+                    <i class="bi bi-bag-heart"></i>
                     <span>Beranda</span>
                 </a>
             </li><!-- End Dashboard Nav -->
-
             <li class="nav-item">
                 <a class="nav-link collapsed" href="kategori.php">
-                    <i class="bi bi-app-indicator"></i>
-                    <span>Kategori produk</span>
+                    <i class="bi bi-book"></i>
+                    <span>Kategori Produk</span>
                 </a>
-            </li><!-- End kategori Page Nav -->
+            </li><!-- End Kategori Page Nav -->
 
             <li class="nav-item">
                 <a class="nav-link" href="produk.php">
-                    <i class="bi bi-bag-fill"></i>
+                    <i class="bi bi-bookmarks"></i>
                     <span>Produk</span>
                 </a>
-            </li><!-- End produk Page Nav -->
+            </li><!-- End Produk Page Nav -->
 
             <li class="nav-item">
                 <a class="nav-link collapsed" href="keranjang.php">
-                    <i class="bi bi-cart-check"></i>
+                    <i class="bi bi-box2-heart"></i>
                     <span>Keranjang</span>
                 </a>
-            </li><!-- End keranjang Page Nav -->
+            </li><!-- End Keranjang Page Nav -->
 
             <li class="nav-item">
                 <a class="nav-link collapsed" href="transaksi.php">
-                    <i class="bi bi-cash"></i>
+                    <i class="bi bi-cash-coin"></i>
                     <span>Transaksi</span>
                 </a>
-            </li><!-- End transaksi Page Nav -->
+            </li><!-- End Transaksi Page Nav -->
 
             <li class="nav-item">
                 <a class="nav-link collapsed" href="laporan.php">
-                    <i class="bi bi-envelope"></i>
+                    <i class="bi bi-chat-left-dots"></i>
                     <span>Laporan</span>
                 </a>
             </li><!-- End Laporan Page Nav -->
 
             <li class="nav-item">
                 <a class="nav-link collapsed" href="pengguna.php">
-                    <i class="bi bi-person-add"></i>
+                    <i class="bi bi-emoji-laughing"></i>
                     <span>Pengguna</span>
                 </a>
             </li><!-- End pengguna Page Nav -->
@@ -150,7 +149,6 @@
         </ul>
 
     </aside><!-- End Sidebar-->
-
 
     <main id="main" class="main">
 

@@ -124,7 +124,7 @@ if (!isset($_SESSION["status"]) || $_SESSION["status"] !== "admin") {
             <li class="nav-item">
                 <a class="nav-link collapsed" href="kategori.php">
                     <i class="bi bi-book"></i>
-                    <span>Kategori</span>
+                    <span>Kategori Produk</span>
                 </a>
             </li><!-- End Kategori Page Nav -->
 
@@ -207,7 +207,7 @@ if (!isset($_SESSION["status"]) || $_SESSION["status"] !== "admin") {
                       <i class="bi bi-basket"></i>
                     </div>
                     <div class="ps-3">
-                      <h6>970</h6>
+                      <h6>63</h6>
                     </div>
                   </div>
                 </div>
@@ -226,7 +226,7 @@ if (!isset($_SESSION["status"]) || $_SESSION["status"] !== "admin") {
                       <i class="bi bi-currency-dollar"></i>
                     </div>
                     <div class="ps-3">
-                      <h6>Rp. 125.932.264</h6>
+                      <h6>Rp. 22.022.500</h6>
                     </div>
                   </div>
                 </div>
