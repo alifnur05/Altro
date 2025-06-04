@@ -114,7 +114,7 @@
       </li><!-- End Kategori Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link" href="produk.php">
+        <a class="nav-link collapsed" href="produk.php">
           <i class="bi bi-bag-heart"></i>
           <span>Produk</span>
         </a>
@@ -135,7 +135,7 @@
       </li><!-- End Transaksi Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="laporan.php">
+        <a class="nav-link" href="laporan.php">
           <i class="bi bi-clipboard-data"></i>
           <span>Laporan</span>
         </a>

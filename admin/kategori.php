@@ -25,7 +25,7 @@ if (!isset($_SESSION["status"]) || $_SESSION["status"] !== "admin") {
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Kategori produk - Altro Admin</title>
+    <title>Kategori - Altro Admin</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -125,15 +125,15 @@ if (!isset($_SESSION["status"]) || $_SESSION["status"] !== "admin") {
         <ul class="sidebar-nav" id="sidebar-nav">
 
             <li class="nav-item">
-                <a class="nav-link " href="index.php">
+                <a class="nav-link collapsed" href="index.php">
                     <i class="bi bi-bag-heart"></i>
                     <span>Beranda</span>
                 </a>
             </li><!-- End Dashboard Nav -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="kategori.php">
+                <a class="nav-link" href="kategori.php">
                     <i class="bi bi-book"></i>
-                    <span>Kategori</span>
+                    <span>Kategori Produk</span>
                 </a>
             </li><!-- End Kategori Page Nav -->
 
@@ -179,11 +179,11 @@ if (!isset($_SESSION["status"]) || $_SESSION["status"] !== "admin") {
     <main id="main" class="main">
 
         <div class="pagetitle">
-            <h1>Kategori</h1>
+            <h1>Kategori Produk</h1>
             <nav>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.php">Beranda</a></li>
-                    <li class="breadcrumb-item active">Kategori</li>
+                    <li class="breadcrumb-item active">Kategori Produk</li>
                 </ol>
             </nav>
         </div><!-- End Page Title -->

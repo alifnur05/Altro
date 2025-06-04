@@ -25,7 +25,7 @@ if (!isset($_SESSION["status"]) || $_SESSION["status"] !== "admin") {
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Altro admin</title>
+    <title>Keranjang - Altro Admin</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -119,7 +119,7 @@ if (!isset($_SESSION["status"]) || $_SESSION["status"] !== "admin") {
 <ul class="sidebar-nav" id="sidebar-nav">
 
   <li class="nav-item">
-    <a class="nav-link " href="index.php">
+    <a class="nav-link collapsed" href="index.php">
       <i class="bi bi-grid"></i>
       <span>Beranda</span>
     </a>
@@ -140,7 +140,7 @@ if (!isset($_SESSION["status"]) || $_SESSION["status"] !== "admin") {
   </li><!-- End produk Page Nav -->
 
   <li class="nav-item">
-    <a class="nav-link collapsed" href="keranjang.php">
+    <a class="nav-link" href="keranjang.php">
     <i class="bi bi-cart-check"></i>
       <span>Keranjang</span>
     </a>
