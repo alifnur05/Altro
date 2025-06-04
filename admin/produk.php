@@ -271,7 +271,7 @@
             &copy; Copyright <strong><span>Altro</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
-            Designed by <a href="https://instagram.com/alif.nfdl/">Alifna</a>
+            Designed by <a href="https://instagram.com/alif.nfdl/">Alif</a>
         </div>
     </footer><!-- End Footer -->
 
