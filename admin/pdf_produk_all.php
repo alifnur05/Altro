@@ -1,7 +1,7 @@
 
 <?php
 // Require composer autoload
-require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 // Load file koneksi.php
 require_once('koneksi.php');

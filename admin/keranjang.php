@@ -255,6 +255,7 @@ if (!isset($_SESSION["status"]) || $_SESSION["status"] !== "admin") {
                                         echo "<td>" . $row["id_produk"] . "</td>";
                                         echo "<td>" . $row["qty"] . "</td>";
                                         echo "<td>Rp " . number_format($row["total"], 0, ",", ".") . "</td>";
+                                        echo "<td>" . $row['username'] . "</td>";
                                         echo "</tr>" ;
                                     }
                                    } else {
