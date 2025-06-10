@@ -1,6 +1,5 @@
-
 <?php
-// Require composer autoload
+// Require composer autolad
 require_once __DIR__ . '/vendor/autoload.php';
 
 // Load file koneksi.php
@@ -18,19 +17,20 @@ function query($query)
 }
 
 // Query dengan JOIN antara tb_produk dan tb_kategori
-$data = query("SELECT tb_produk.id_produk, tb_produk.nm_produk, tb_produk.harga, tb_produk.stok, tb_produk.desk, tb_produk.gambar, tb_kategori.nm_kategori
-                FROM tb_produk
-                JOIN tb_kategori ON tb_produk.id_kategori = tb_kategori.id_kategori");
+$data = query("SELECT tb_produk.id_produk, tb_produk.nm_produk, tb_produk.harga, tb_produk.stok, 
+tb_produk.desk, tb_produk.gambar, tb_kategori.nm_kategori 
+FROM tb_produk 
+JOIN tb_kategori ON tb_produk.id_kategori = tb_kategori.id_kategori");
 
 // Create an instance of the class:
 $mpdf = new \Mpdf\Mpdf();
 $html = '<html>
-<head>
+<head> 
     <title>Laporan Data Produk</title>
-    <link rel="shortcut icon" href="../../assets/images/logos/logo-makmur.ico" type="image/x-icon">
-    
+    <link rel="shortcut icon" href="../../assets/images/logo-makmur.ico" type="image/x-icon">
+
     <style>
-    <h1> {
+    h1 {
         color: #262626;
     }
     table {
@@ -66,7 +66,7 @@ $html = '<html>
 </head>
 <body>
 
-<h1 align="center">wartech</h1>
+<h1 align="center">Altro</h1>
 <hr>
 <h1 align="center">LAPORAN DATA PRODUK</h1>
 
@@ -84,16 +84,16 @@ $html = '<html>
 </thead>';
 
 foreach ($data as $row) {
-    $formatted_harga = "Rp " . number_format($row["harga"], 0, ',', '.'); // Format harga Rupiah
+    $formattedHarga = "Rp " . number_format($row["harga"], 0, ',', '.'); // Format harga Rupiah
     $html .= '<tbody>
     <tr align="center">
-    <td>' . $row["id_produk"] . '</td>
-    <td><img src="produk_img/' . $row["gambar"] . '" alt="Gambar"></td>
-    <td>' . $row["nm_produk"] . '</td>
-    <td>' . $row["nm_kategori"] . '</td>
-    <td>' . $row["desk"] . '</td>
-    <td>' . $formatted_harga . '</td> <!-- Harga dengan format Rp 6.400.000 -->
-    <td>' . $row["stok"] . '</td>
+        <td>'.$row["id_produk"] .'</td>
+        <td><img src="produk_img/'. $row["gambar"] .'" alt="Gambar"></td>
+        <td>'.$row["nm_produk"].'</td>
+        <td>'.$row["nm_kategori"].'</td>
+        <td>'.$row["desk"].'</td>
+        <td>'.$formattedHarga.'</td>
+        <td>'.$row["stok"].'</td>
     </tr>
     </tbody>';
 }
