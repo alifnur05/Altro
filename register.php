@@ -295,7 +295,7 @@ $data = mysqli_fetch_array($sql);
                                     </li>
                                     <li>
                                        <span>Phone: </span>
-                                            <a href="#">085212221394</a>
+                                            <a href="tel : +6285212221394">085212221394</a>
                                         </li>
                                         <li>
                                             <span>Email: </span>

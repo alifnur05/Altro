@@ -5,12 +5,12 @@ session_start();
 <!doctype html>
 <html class="no-js" lang="zxx">
 
-<!-- index-431:41-->
+<!-- contact32:04-->
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Beranda - Altro</title>
+    <title>Hubungi Kami - Altro</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
@@ -39,10 +39,10 @@ session_start();
     <link rel="stylesheet" href="css/magnific-popup.css">
     <!-- Bootstrap V4.1.3 Fremwork CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Helper CSS -->
-    <link rel="stylesheet" href="css/helper.css">
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- Helper CSS -->
+    <link rel="stylesheet" href="css/helper.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Modernizr js -->
@@ -257,179 +257,84 @@ session_start();
             <!-- Mobile Menu Area End Here -->
         </header>
         <!-- Header Area End Here -->
-        <!-- Begin Slider With Banner Area -->
-        <div class="slider-with-banner">
+        <!-- Begin Li's Breadcrumb Area -->
+        <div class="breadcrumb-area">
             <div class="container">
-                <div class="row">
-                    <!-- Begin Slider Area -->
-                    <div class="col-lg-8 col-md-8">
-                        <div class="slider-area pt-sm-30 pt-xs-30">
-                            <div class="slider-active owl-carousel">
-                                <!-- Slide 1 -->
-                                <div class="single-slide align-center-left animation-style-01 bg-1">
-                                    <div class="slider-progress"></div>
-                                    <div class="slider-content">
-                                        <h5>Promo Mingguan <span>-20% Diskon</span> untuk Smartphone</h5>
-                                        <h2>Samsung Galaxy</h2>
-                                        <h3>Mulai dari <span>Rp2.000.000</span></h3>
-                                        <div class="default-btn slide-btn">
-                                            <a class="links" href="belanja.php">Belanja Sekarang</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Slide 2 -->
-                                <div class="single-slide align-center-left animation-style-02 bg-2">
-                                    <div class="slider-progress"></div>
-                                    <div class="slider-content">
-                                        <h5>Promo Spesial <span></span></h5>
-                                        <h2>Galaxy Tab</h2>
-                                        <h3>Harga mulai <span>Rp6.000.000</span></h3>
-                                        <div class="default-btn slide-btn">
-                                            <a class="links" href="belanja.php">Belanja Sekarang</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Slide 3 -->
-                                <div class="single-slide align-center-left animation-style-01 bg-3">
-                                    <div class="slider-progress"></div>
-                                    <div class="slider-content">
-                                    
-                                        <h2>Laptop HP</h2>
-                                        <h3>Mulai dari <span>Rp5.000.000</span></h3>
-                                        <div class="default-btn slide-btn">
-                                            <a class="links" href="belanja.php">Belanja Sekarang</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Slider Area End Here -->
-                    <!-- Begin Li Banner Area -->
-                    <div class="col-lg-4 col-md-4 text-center pt-sm-30 pt-xs-30">
-                        <div class="li-banner">
-                            <a href="#">
-                                <img src="images/banner/1_1.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="li-banner mt-15 mt-md-30 mt-xs-25 mb-xs-5">
-                            <a href="#">
-                                <img src="images/banner/1_2.jpg" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Li Banner Area End Here -->
+                <div class="breadcrumb-content">
+                    <ul>
+                        <li><a href="index.php">Beranda</a></li>
+                        <li class="active">Hubungi Kami</li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <!-- Slider With Banner Area End Here -->
-        <!-- Begin Static Top Area -->
-        <div class="static-top-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="static-top-content mt-sm-30">
-                            Promo Spesial Akhir Pekan dari <strong>Altro</strong> - Gunakan Kode Kupon:
-                            <span>220225</span>
-                        </div>
-                    </div>
+        <!-- Li's Breadcrumb Area End Here -->
+        <!-- Begin Contact Main Page Area -->
+        <div class="contact-main-page mt-60 mb-40 mb-md-40 mb-sm-40 mb-xs-40">
+            <div class="container mb-60">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.973730217066!2d111.58744367424643!3d-7.129035169917676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e776411abeabb93%3A0x3ccba806cf9ef497!2sSekolah%20Tinggi%20Teknologi%20Ronggolawe!5e0!3m2!1sen!2sid!4v1746959940264!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
-        </div>
-        <!-- Static Top Area End Here -->
-        <section class="product-area li-laptop-product pt-60 pb-45 pt-sm-50 pt-xs-60">
+
             <div class="container">
                 <div class="row">
-                    <!-- Begin Li's Section Area -->
-                    <div class="col-lg-12">
-                        <div class="li-section-title">
-                            <h2>
-                                <span>Our Product</span>
-                            </h2>
-                        </div>
-                        <div class="row">
-                            <div class="product-active owl-carousel">
-                                <?php
-                                include "admin/koneksi.php";
-
-                                $query = mysqli_query($koneksi, "
-    SELECT p.*, k.nm_kategori 
-    FROM tb_produk p 
-    JOIN tb_kategori k ON p.id_kategori = k.id_kategori 
-    ORDER BY RAND() LIMIT 5
-");
-
-                                while ($data = mysqli_fetch_assoc($query)) {
-                                ?>
-                                    <div class="col-lg-12">
-                                        <!-- single-product-wrap start -->
-                                        <div class="single-product-wrap">
-                                            <div class="product-image">
-                                                <a href="detail_produk.php?id=<?php echo $data['id_produk']; ?>">
-                                                    <img src="admin/produk_img/<?php echo $data['gambar']; ?>" alt="<?php echo $data['nm_produk']; ?>" width="300" height="300">
-                                                </a>
-                                            </div>
-                                            <div class="product_desc">
-                                                <div class="product_desc_info">
-                                                    <div class="product-review">
-                                                        <h5 class="manufacturer">
-                                                            <a href="#"><?php echo strtoupper($data['nm_kategori']); ?>
-                                                            </a>
-                                                        </h5>
-                                                    </div>
-                                                    <h4><a class="product_name" href="detail_produk.php?id=<?php echo $data['id_produk']; ?>">
-                                                            <?php echo $data['nm_produk']; ?>
-                                                        </a></h4>
-                                                    <div class="price-box">
-                                                        <span class="new-price">Rp<?php echo number_format($data['harga'], 0, ',', '.'); ?></span>
-                                                    </div>
-                                                </div>
-                                                <div class="add-actions">
-                                                    <ul class="add-actions-link">
-                                                        <li class="add-cart active"><a href="detail_produk.php?id=<?php echo $data['id_produk']; ?>">Beli Sekarang</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- single-product-wrap end -->
-                                    </div>
-                                <?php } ?>
-
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Li's Section Area End Here -->
-                </div>
-            </div>
-        </section>
-
-        <!-- Begin Li's Static Home Area -->
-        <div class="li-static-home">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <!-- Begin Li's Static Home Image Area -->
-                        <div class="li-static-home-image"></div>
-                        <!-- Li's Static Home Image Area End Here -->
-                        <!-- Begin Li's Static Home Content Area -->
-                        <div class="li-static-home-content">
-                            <p>Promo Mingguan <span>-20% Diskon</span> Produk Pilihan</p>
-                            <h2>Produk Unggulan</h2>
-                            <h2>Hanya di Altro</h2>
-                            <p class="schedule">
-                                Mulai dari
-                                <span> 300 ribuan</span>
+                    <div class="col-lg-5 offset-lg-1 col-md-12 order-1 order-lg-2">
+                        <div class="contact-page-side-content">
+                            <h3 class="contact-page-title">Altro</h3>
+                            <p class="contact-page-message mb-25">
+                                Investasi Tepat, Kualitas Hebat.
+                                        Enggak Usah Pindah Tempat, Di Sini Semua Tepat.
                             </p>
-                            <div class="default-btn">
-                                <a href="belanja.php" class="links">Belanja Sekarang</a>
+                            <div class="single-contact-block">
+                                <h4><i class="fa fa-map-marker"></i> Address:</h4>
+                                <p> Sekolah Tinggi Teknologi Ronggolawe Cepu</p>
+                            </div>
+                            <div class="single-contact-block">
+                                <h4><i class="fa fa-phone"></i> Phone:</h4>
+                                <p><a href="tel:085212221394">085212221394</a></p>
+                            </div>
+                            <div class="single-contact-block last-child">
+                                <h4><i class="fa fa-envelope-o"></i> Email:</h4>
+                                <p><a href="alifnanur05@gmail.com">alifnanur05@gmail.com</a></p>
                             </div>
                         </div>
-                        <!-- Li's Static Home Content Area End Here -->
                     </div>
+
+                    <div class="col-lg-6 col-md-12 order-2 order-lg-1">
+                        <div class="contact-form-content pt-sm-55 pt-xs-55">
+                            <h3 class="contact-page-title">Send your message</h3>
+                            <div class="contact-form">
+                                <form id="contact-form" action="http://demo.hasthemes.com/limupa-v3/limupa/mail.php" method="post">
+                                    <div class="form-group">
+                                        <label>Nama Anda <span class="required">*</span></label>
+                                        <input type="text" name="customerName" id="customername" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Email Anda <span class="required">*</span></label>
+                                        <input type="email" name="customerEmail" id="customerEmail" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Subjek</label>
+                                        <input type="text" name="contactSubject" id="contactSubject">
+                                    </div>
+                                    <div class="form-group mb-30">
+                                        <label>Pesan Anda</label>
+                                        <textarea name="contactMessage" id="contactMessage"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" value="submit" id="submit" class="li-btn-3" name="submit">Kirim</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <p class="form-messege"></p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
-        <!-- Li's Static Home Area End Here -->
+        <!-- Contact Main Page Area End Here -->
         <!-- Begin Footer Area -->
         <div class="footer">
             <!-- Begin Footer Static Top Area -->
@@ -504,7 +409,7 @@ session_start();
                             <!-- Begin Footer Logo Area -->
                             <div class="col-lg-4 col-md-6">
                                 <div class="footer-logo">
-                                     <h1>Altro</h1>
+                                    <h1>Altro</h1>
                                     <p class="info">
                                             Investasi Tepat, Kualitas Hebat.
                                             Enggak Usah Pindah Tempat, Di Sini Semua Tepat.
@@ -525,6 +430,7 @@ session_start();
                                     </li>
                                 </ul>
                             </div>
+
                             <!-- Footer Logo Area End Here -->
                             <!-- Begin Footer Block Area -->
                             <div class="col-lg-2 col-md-3 col-sm-6">
@@ -539,7 +445,7 @@ session_start();
                             <!-- Begin Footer Block Area -->
                             <div class="col-lg-4">
                                 <div class="footer-block">
-                                    <h3 class="footer-block-title">Follow us</h3>
+                                    <h3 class="footer-block-title">Follow Us</h3>
                                     <ul class="social-link">
                                         <li class="instagram">
                                             <a href="https://www.instagram.com/alif.nfdl" data-toggle="tooltip" target="_blank" title="Instagram">
@@ -581,118 +487,6 @@ session_start();
             <!-- Footer Static Bottom Area End Here -->
         </div>
         <!-- Footer Area End Here -->
-        <!-- Begin Quick View | Modal Area -->
-        <div class="modal fade modal-wrapper" id="exampleModalCenter">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <div class="modal-inner-area row">
-                            <div class="col-lg-5 col-md-6 col-sm-6">
-                                <!-- Product Details Left -->
-                                <div class="product-details-left">
-                                    <div class="product-details-images slider-navigation-1">
-                                        <div class="lg-image">
-                                            <img src="images/product/large-size/1.jpg" alt="product image">
-                                        </div>
-                                        <div class="lg-image">
-                                            <img src="images/product/large-size/2.jpg" alt="product image">
-                                        </div>
-                                        <div class="lg-image">
-                                            <img src="images/product/large-size/3.jpg" alt="product image">
-                                        </div>
-                                        <div class="lg-image">
-                                            <img src="images/product/large-size/4.jpg" alt="product image">
-                                        </div>
-                                        <div class="lg-image">
-                                            <img src="images/product/large-size/5.jpg" alt="product image">
-                                        </div>
-                                        <div class="lg-image">
-                                            <img src="images/product/large-size/6.jpg" alt="product image">
-                                        </div>
-                                    </div>
-                                    <div class="product-details-thumbs slider-thumbs-1">
-                                        <div class="sm-image"><img src="images/product/small-size/1.jpg" alt="product image thumb"></div>
-                                        <div class="sm-image"><img src="images/product/small-size/2.jpg" alt="product image thumb"></div>
-                                        <div class="sm-image"><img src="images/product/small-size/3.jpg" alt="product image thumb"></div>
-                                        <div class="sm-image"><img src="images/product/small-size/4.jpg" alt="product image thumb"></div>
-                                        <div class="sm-image"><img src="images/product/small-size/5.jpg" alt="product image thumb"></div>
-                                        <div class="sm-image"><img src="images/product/small-size/6.jpg" alt="product image thumb"></div>
-                                    </div>
-                                </div>
-                                <!--// Product Details Left -->
-                            </div>
-
-                            <div class="col-lg-7 col-md-6 col-sm-6">
-                                <div class="product-details-view-content pt-60">
-                                    <div class="product-info">
-                                        <h2>Today is a good day Framed poster</h2>
-                                        <span class="product-details-ref">Reference: demo_15</span>
-                                        <div class="rating-box pt-20">
-                                            <ul class="rating rating-with-review-item">
-                                                <li><i class="fa fa-star-o"></i></li>
-                                                <li><i class="fa fa-star-o"></i></li>
-                                                <li><i class="fa fa-star-o"></i></li>
-                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                <li class="review-item"><a href="#">Read Review</a></li>
-                                                <li class="review-item"><a href="#">Write Review</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="price-box pt-20">
-                                            <span class="new-price new-price-2">$57.98</span>
-                                        </div>
-                                        <div class="product-desc">
-                                            <p>
-                                                <span>100% cotton double printed dress. Black and white striped top and orange high waisted skater skirt bottom. Lorem ipsum dolor sit amet, consectetur adipisicing elit. quibusdam corporis, earum facilis et nostrum dolorum accusamus similique eveniet quia pariatur.
-                                                </span>
-                                            </p>
-                                        </div>
-                                        <div class="product-variants">
-                                            <div class="produt-variants-size">
-                                                <label>Dimension</label>
-                                                <select class="nice-select">
-                                                    <option value="1" title="S" selected="selected">40x60cm</option>
-                                                    <option value="2" title="M">60x90cm</option>
-                                                    <option value="3" title="L">80x120cm</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="single-add-to-cart">
-                                            <form action="#" class="cart-quantity">
-                                                <div class="quantity">
-                                                    <label>Quantity</label>
-                                                    <div class="cart-plus-minus">
-                                                        <input class="cart-plus-minus-box" value="1" type="text">
-                                                        <div class="dec qtybutton"><i class="fa fa-angle-down"></i></div>
-                                                        <div class="inc qtybutton"><i class="fa fa-angle-up"></i></div>
-                                                    </div>
-                                                </div>
-                                                <button class="add-to-cart" type="submit">Add to cart</button>
-                                            </form>
-                                        </div>
-                                        <div class="product-additional-info pt-25">
-                                            <a class="wishlist-btn" href="wishlist.html"><i class="fa fa-heart-o"></i>Add to wishlist</a>
-                                            <div class="product-social-sharing pt-25">
-                                                <ul>
-                                                    <li class="facebook"><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
-                                                    <li class="twitter"><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
-                                                    <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i>Google +</a></li>
-                                                    <li class="instagram"><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Quick View | Modal Area End Here -->
     </div>
     <!-- Body Wrapper End Here -->
     <!-- jQuery-V1.12.4 -->
@@ -737,8 +531,204 @@ session_start();
     <script src="js/scrollUp.min.js"></script>
     <!-- Main/Activator js -->
     <script src="js/main.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.google.com/maps/api/js?sensor=false&amp;libraries=geometry&amp;v=3.22&amp;key=AIzaSyChs2QWiAhnzz0a4OEhzqCXwx_qA9ST_lE"></script>
+
+    <script>
+        // When the window has finished loading create our google map below
+        google.maps.event.addDomListener(window, 'load', init);
+
+        function init() {
+            // Basic options for a simple Google Map
+            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+            var mapOptions = {
+                // How zoomed in you want the map to start at (always required)
+                zoom: 12,
+                scrollwheel: false,
+                // The latitude and longitude to center the map (always required)
+                center: new google.maps.LatLng(40.740610, -73.935242), // New York
+                // How you would like to style the map. 
+                // This is where you would paste any style found on
+                styles: [{
+                        "featureType": "water",
+                        "elementType": "geometry",
+                        "stylers": [{
+                                "color": "#e9e9e9"
+                            },
+                            {
+                                "lightness": 17
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "landscape",
+                        "elementType": "geometry",
+                        "stylers": [{
+                                "color": "#f5f5f5"
+                            },
+                            {
+                                "lightness": 20
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.highway",
+                        "elementType": "geometry.fill",
+                        "stylers": [{
+                                "color": "#ffffff"
+                            },
+                            {
+                                "lightness": 17
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.highway",
+                        "elementType": "geometry.stroke",
+                        "stylers": [{
+                                "color": "#ffffff"
+                            },
+                            {
+                                "lightness": 29
+                            },
+                            {
+                                "weight": 0.2
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.arterial",
+                        "elementType": "geometry",
+                        "stylers": [{
+                                "color": "#ffffff"
+                            },
+                            {
+                                "lightness": 18
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.local",
+                        "elementType": "geometry",
+                        "stylers": [{
+                                "color": "#ffffff"
+                            },
+                            {
+                                "lightness": 16
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi",
+                        "elementType": "geometry",
+                        "stylers": [{
+                                "color": "#f5f5f5"
+                            },
+                            {
+                                "lightness": 21
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi.park",
+                        "elementType": "geometry",
+                        "stylers": [{
+                                "color": "#dedede"
+                            },
+                            {
+                                "lightness": 21
+                            }
+                        ]
+                    },
+                    {
+                        "elementType": "labels.text.stroke",
+                        "stylers": [{
+                                "visibility": "on"
+                            },
+                            {
+                                "color": "#ffffff"
+                            },
+                            {
+                                "lightness": 16
+                            }
+                        ]
+                    },
+                    {
+                        "elementType": "labels.text.fill",
+                        "stylers": [{
+                                "saturation": 36
+                            },
+                            {
+                                "color": "#333333"
+                            },
+                            {
+                                "lightness": 40
+                            }
+                        ]
+                    },
+                    {
+                        "elementType": "labels.icon",
+                        "stylers": [{
+                            "visibility": "off"
+                        }]
+                    },
+                    {
+                        "featureType": "transit",
+                        "elementType": "geometry",
+                        "stylers": [{
+                                "color": "#f2f2f2"
+                            },
+                            {
+                                "lightness": 19
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "administrative",
+                        "elementType": "geometry.fill",
+                        "stylers": [{
+                                "color": "#fefefe"
+                            },
+                            {
+                                "lightness": 20
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "administrative",
+                        "elementType": "geometry.stroke",
+                        "stylers": [{
+                                "color": "#fefefe"
+                            },
+                            {
+                                "lightness": 17
+                            },
+                            {
+                                "weight": 1.2
+                            }
+                        ]
+                    }
+                ]
+            };
+
+            // Get the HTML DOM element that will contain your map 
+            // We are using a div with id="map" seen below in the <body>
+            var mapElement = document.getElementById('google-map');
+
+            // Create the Google Map using our element and options defined above
+            var map = new google.maps.Map(mapElement, mapOptions);
+
+            // Let's also add a marker while we're at it
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(40.740610, -73.935242),
+                map: map,
+                title: 'Limupa',
+                animation: google.maps.Animation.BOUNCE
+            });
+        }
+    </script>
 </body>
 
-<!-- index-431:47-->
+<!-- contact32:04-->
 
 </html>
