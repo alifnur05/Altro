@@ -1,0 +1,52 @@
+2025-06-09T11:17:15.472242Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-06-09T11:17:16.105954Z 0 [Warning] [MY-010097] [Server] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2025-06-09T11:17:16.106276Z 0 [System] [MY-010116] [Server] C:\laragon\bin\mysql\mysql-8.4.3-winx64\bin\mysqld (mysqld 8.4.3) starting as process 45156
+2025-06-09T11:17:16.226093Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-06-09T11:17:17.504592Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+mysqld: Table 'mysql.plugin' doesn't exist
+2025-06-09T11:17:17.899217Z 0 [ERROR] [MY-010735] [Server] Could not open the mysql.plugin table. Please perform the MySQL upgrade procedure.
+2025-06-09T11:17:17.903535Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-06-09T11:17:17.905822Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-06-09T11:17:17.908046Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-06-09T11:17:17.910380Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-06-09T11:17:17.912552Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-06-09T11:17:17.914742Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-06-09T11:17:17.917398Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-06-09T11:17:18.150638Z 0 [Warning] [MY-010015] [Repl] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2025-06-09T11:17:18.307547Z 0 [Warning] [MY-013829] [Server] Missing data directory for ICU regular expressions: C:\laragon\bin\mysql\mysql-8.4.3-winx64\lib\private\.
+2025-06-09T11:17:18.317098Z 0 [Warning] [MY-010015] [Repl] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2025-06-09T11:17:18.394643Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-06-09T11:17:18.405293Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-06-09T11:17:18.422123Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-06-09T11:17:18.425222Z 0 [ERROR] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-001146 - Table 'mysql.component' doesn't exist
+2025-06-09T11:17:18.430273Z 0 [Warning] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-003543 - The mysql.component table is missing or has an incorrect definition.
+2025-06-09T11:17:18.439057Z 0 [ERROR] [MY-000067] [Server] unknown variable 'default_authentication_plugin=mysql_native_password'.
+2025-06-09T11:17:18.446938Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-06-09T11:17:19.633765Z 0 [System] [MY-010910] [Server] C:\laragon\bin\mysql\mysql-8.4.3-winx64\bin\mysqld: Shutdown complete (mysqld 8.4.3)  MySQL Community Server - GPL.
+2025-06-09T11:17:19.642555Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-06-09T13:41:33.073667Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-06-09T13:41:33.513052Z 0 [Warning] [MY-010097] [Server] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2025-06-09T13:41:33.513223Z 0 [System] [MY-010116] [Server] C:\laragon\bin\mysql\mysql-8.4.3-winx64\bin\mysqld (mysqld 8.4.3) starting as process 14164
+2025-06-09T13:41:33.619679Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-06-09T13:41:34.762460Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+mysqld: Table 'mysql.plugin' doesn't exist
+2025-06-09T13:41:35.426657Z 0 [ERROR] [MY-010735] [Server] Could not open the mysql.plugin table. Please perform the MySQL upgrade procedure.
+2025-06-09T13:41:35.430488Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-06-09T13:41:35.433401Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-06-09T13:41:35.436359Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-06-09T13:41:35.440390Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-06-09T13:41:35.442683Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-06-09T13:41:35.445106Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-06-09T13:41:35.448025Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-06-09T13:41:35.717256Z 0 [Warning] [MY-010015] [Repl] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2025-06-09T13:41:35.865963Z 0 [Warning] [MY-013829] [Server] Missing data directory for ICU regular expressions: C:\laragon\bin\mysql\mysql-8.4.3-winx64\lib\private\.
+2025-06-09T13:41:35.871547Z 0 [Warning] [MY-010015] [Repl] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2025-06-09T13:41:35.960753Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-06-09T13:41:35.962706Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-06-09T13:41:35.982863Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-06-09T13:41:35.986188Z 0 [ERROR] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-001146 - Table 'mysql.component' doesn't exist
+2025-06-09T13:41:35.991814Z 0 [Warning] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-003543 - The mysql.component table is missing or has an incorrect definition.
+2025-06-09T13:41:36.018973Z 0 [ERROR] [MY-000067] [Server] unknown variable 'default_authentication_plugin=mysql_native_password'.
+2025-06-09T13:41:36.027404Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-06-09T13:41:37.503140Z 0 [System] [MY-010910] [Server] C:\laragon\bin\mysql\mysql-8.4.3-winx64\bin\mysqld: Shutdown complete (mysqld 8.4.3)  MySQL Community Server - GPL.
+2025-06-09T13:41:37.506135Z 0 [System] [MY-015016] [Server] MySQL Server - end.
