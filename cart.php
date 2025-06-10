@@ -525,7 +525,6 @@ session_start();
                             <div class="col-lg-4 col-md-6">
                                 <div class="footer-logo">
                                    <h1>Altro</h1>
-                                        <img src="imag/aal.jpg.jpeg" alt="Footer Logo">
                                         <p class="info">
                                             Investasi Tepat, Kualitas Hebat.
                                             Enggak Usah Pindah Tempat, Di Sini Semua Tepat.
