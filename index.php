@@ -504,7 +504,7 @@ session_start();
                             <!-- Begin Footer Logo Area -->
                             <div class="col-lg-4 col-md-6">
                                 <div class="footer-logo">
-                                     <h1>Altro</h1>
+                                    <h1>Altro</h1>
                                     <p class="info">
                                             Investasi Tepat, Kualitas Hebat.
                                             Enggak Usah Pindah Tempat, Di Sini Semua Tepat.
