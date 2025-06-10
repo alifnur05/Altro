@@ -56,7 +56,7 @@ if (!isset($_SESSION["status"]) || $_SESSION["status"] !== "admin") {
 
         <div class="d-flex align-items-center justify-content-between">
             <a href="index.php" class="logo d-flex align-items-center">
-                <img src="assets/img/logo.png" alt="">
+                <img src="assets/img/elemen.jpg" alt="">
                 <span class="d-none d-lg-block">Altro</span>
             </a>
             <i class="bi bi-list toggle-sidebar-btn"></i>
@@ -81,7 +81,7 @@ if (!isset($_SESSION["status"]) || $_SESSION["status"] !== "admin") {
                 <li class="nav-item dropdown pe-3">
 
                     <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-                        <img src="assets/img/aal.jpg" alt="Profile" class="rounded-circle">
+                        <img src="assets/img/logo1.jpg" alt="Profile" class="rounded-circle">
                         <!-- profile-img.jpg diganti dengan foto kalian -->
                     </a><!-- End Profile Iamge Icon -->
 
